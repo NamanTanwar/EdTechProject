@@ -1,31 +1,22 @@
-# React & Tailwind CSS Starter Pack
+Prerequisites:
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+Node.js and npm (or yarn) installed on your system.
+MongoDB running locally or on a cloud platform.
 
-## Usage
+Clone the project repository:
+git clone https://github.com/NamanTanwar/EdTechProject.git
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+Navigate to the project directory:
+cd StudyNotion
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+Install dependencies:
+npm install (or yarn install)
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+Start the backend server:
+npm run dev (or yarn run dev)
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+Start the frontend development server:
+npm start:client (or yarn start:client)
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+Frontend Server on port 3000
+Backend Server on port 4000
